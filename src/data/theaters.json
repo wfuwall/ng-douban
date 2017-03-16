@@ -1,0 +1,242 @@
+[
+  {
+    "rating":7.8,
+    "stars":40,
+    "title": "一条狗的使命",
+    "images":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2432493858.jpg",
+    "description":"影片以汪星人的视角展现狗狗和人类的微妙情感，一只狗狗陪伴小主人长大成人，甚至为他追到了女朋友，后来它年迈死去又转世投胎变成其他性别和类型的汪，第二次轮回狗狗变成了警犬威风凛凛，再次转轮回，又成了陪伴一位单身女青年的小柯基犬。在经历了多次轮回之后，最终回到最初的主人身边。",
+    "casts":[
+      {
+        "title":"主演",
+        "name":"布丽特·罗伯森",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/1433487849.12.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"丹尼斯·奎德",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/52.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"佩吉·利普顿",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/1376584681.68.jpg"
+      }
+    ],
+    "directors":{
+      "title":"导演",
+      "name":"拉斯·霍尔斯道姆",
+      "avatar":"https://img3.doubanio.com/img/celebrity/large/4333.jpg"
+    },
+    "id": "I1"
+  },
+  {
+    "rating":8.4,
+    "stars":45,
+    "title": "爱乐之城",
+    "images":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2425658570.jpg",
+    "description":"米娅（艾玛·斯通 Emma Stone 饰）渴望成为一名演员，但至今她仍旧只是片场咖啡厅里的一名平凡的咖啡师，尽管不停的参加着大大小小的试镜，但米娅收获的只有失败。某日，在一场派对之中，米娅邂逅了名为塞巴斯汀（瑞恩·高斯林 Ryan Gosling 饰）的男子，起初两人之间产生了小小的矛盾，但很快，米娅便被塞巴斯汀身上闪耀的才华以及他对爵士乐的纯粹追求所吸引，最终两人走到了一起。在塞巴斯汀的鼓励下，米娅辞掉了咖啡厅的工作，专心为自己写起了剧本，与此同时，塞巴斯汀为了获得一份稳定的收入，加入了一支流行爵士乐队，开始演奏自己并不喜欢的现代爵士乐，没想到一炮而红。随着时间的推移，努力追求梦想的两人，彼此之间的距离却越来越远，在理想和感情之间，他们必须做出选择。",
+    "casts":[
+      {
+        "title":"主演",
+        "name":"瑞恩·高斯林",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/938.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"艾玛·斯通",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/1398005949.4.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"约翰·传奇",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/1487126502.97.jpg"
+      }
+    ],
+    "directors":{
+      "title":"导演",
+      "name":"达米恩·查泽雷",
+      "avatar":"https://img1.doubanio.com/img/celebrity/large/1484063163.78.jpg"
+    },
+    "id": "I2"
+  },
+  {
+    "rating":8.4,
+    "stars":45,
+    "title": "金刚狼3：殊死一战",
+    "images":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2431980130.jpg",
+    "description":"2029年，变种人大幅减少，X战警已经解散。身心疲惫的金刚狼罗根（休·杰克曼 Hugh Jackman 饰）自愈因子逐渐消失，整天饮酒度日，靠当司机养家。他在墨西哥边境隐居，并照顾着饱受病痛折磨的老X教授（帕特里克·斯图尔特 Patrick Stewart 饰）。有一天，一位陌生女子让罗根送一个叫劳拉（达芙妮·金 Dafne Keen 饰）的女孩去加拿大边境，一开始罗根拒绝了，但查尔斯一直在等着这个女孩的出现，劳拉拥有超强的战斗力，而且在许多方面都很像金刚狼。她被一个强大公司的幕后人物所追踪，因为她的DNA里有连接罗根的秘密，一场无休止的追捕由此展开。",
+    "casts":[
+      {
+        "title":"主演",
+        "name":"休·杰克曼",
+        "avatar":"https://img5.doubanio.com/img/celebrity/large/22036.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"帕特里克·斯图尔特",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/50451.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"达芙妮·基恩",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/1489059638.74.jpg"
+      }
+    ],
+    "directors":{
+      "title":"导演",
+      "name":"詹姆斯·曼高德",
+      "avatar":"https://img3.doubanio.com/img/celebrity/large/11282.jpg"
+    },
+    "id": "I3"
+  },
+  {
+    "rating":6.8,
+    "stars":35,
+    "title": "生化危机：终章",
+    "images":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2429713841.jpg",
+    "description":"爱丽丝（米拉·乔沃维奇 Milla Jovovich 饰）在华盛顿特区被威斯克背叛后身陷险境，人类几乎要失去最后的希望。作为唯一的幸存者，也是人类对抗僵尸大军的最后防线，爱丽丝必须回到噩梦开始的地方——浣熊市，才能完成拯救世界救赎人类的正义使命。回归故事发生的起点浣熊市，爱丽丝将和昔日的朋友一起对抗僵尸和最新变种怪物，与 保护伞公司展开了一场惊心动魄的终极决战。",
+    "casts":[
+      {
+        "title":"主演",
+        "name":"米拉·乔沃维奇",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/2431.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"伊恩·格雷",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/1416757467.73.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"艾丽·拉特",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/187.jpg"
+      }
+    ],
+    "directors":{
+      "title":"导演",
+      "name":"保罗·安德森",
+      "avatar":"https://img1.doubanio.com/img/celebrity/large/11288.jpg"
+    },
+    "id": "I4"
+  },
+  {
+    "rating":7.3,
+    "stars":40,
+    "title": "最终幻想15：王者之剑",
+    "images":"https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2436217927.jpg",
+    "description":"影片基于2016年电子角色扮演游戏《最终幻想XV》的世界观，构成新的水晶故事子系列的一部分。本片由野末武志执导，他曾是最终幻想CGI电影《最终幻想VII 降临之子》（2005）的联合导演。《最终幻想XV》总监田畑端担任电影监制，长谷川隆任编剧，约翰·R·格雷厄姆负责作曲。",
+    "casts":[
+      {
+        "title":"主演",
+        "name":"亚伦·保尔",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/1307.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"肖恩·宾",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/53.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"琳娜·海蒂",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/32547.jpg"
+      }
+    ],
+    "directors":{
+      "title":"导演",
+      "name":"野末武志",
+      "avatar":"https://img1.doubanio.com/img/celebrity/large/1473126947.39.jpg"
+    },
+    "id": "I5"
+  },
+  {
+    "rating":7.4,
+    "stars":40,
+    "title": "天才捕手",
+    "images":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2441824955.jpg",
+    "description":"上世纪20年代末，默默无闻的托马斯·沃尔夫（裘德·洛 Jude Law 饰）怀揣文学梦来到纽约，而他冗长的自传体小说被曾一手发掘过菲兹杰拉德、海明威等作家的文学编辑麦克斯·珀金斯（科林·费尔斯 Colin Firth 饰）看中。珀金斯大刀阔斧地为沃尔夫删减文章篇幅，最后该书出版时大获成功，沃尔夫也成为了文学界新星，而这本书正是他流传后世的著名小说《天使，望故乡》。在此之后，珀金斯和沃尔夫更加紧密地合作，但他们的亲近引起了沃尔夫女友（妮可·基德曼 Nicole Kidman 饰）的嫉妒。在沃尔夫第二本小说的即将面世之时，三人之间关系却愈发微妙。一边是发掘自己的伯乐，一边是相处多年的女友，他将如何抉择……",
+    "casts":[
+      {
+        "title":"主演",
+        "name":"科林·费尔斯",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/1497.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"裘德·洛",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/107.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"妮可·基德曼",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/619.jpg"
+      }
+    ],
+    "directors":{
+      "title":"导演",
+      "name":"迈克尔·格兰达吉",
+      "avatar":"https://img5.doubanio.com/img/celebrity/large/1450675887.56.jpg"
+    },
+    "id": "I6"
+  },
+  {
+    "rating":8.3,
+    "stars":45,
+    "title": "欢乐好声音",
+    "images":"https://img5.doubanio.com/view/movie_poster_cover/lpst/public/p2411622136.jpg",
+    "description":"曾制作过《小黄人》的环球公司和Illumination Entertainment今天公布了他们一部新的动画电影档期和配音阵容。该片堪称动物界的“达人秀”和“好声音”，片中会用到超过85首热门歌曲！这部动画片叫做《歌唱秀》（Sing），将于2016年12月21日上映。马修·麦康纳希（Matthew McConaughey）为剧院老板巴斯特（Buster Moon）——一只考拉配音，这家剧院是他父亲建立的，曾经十分辉煌，但现在门庭冷落。为了重振剧院，考拉经理决定举办一场全世界最伟大的歌唱大赛，冠军将获得10万美元的奖金！这在动物王国已经算是巨款了！ ",
+    "casts":[
+      {
+        "title":"主演",
+        "name":"马修·麦康纳",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/1392653727.04.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"瑞茜·威瑟斯彭",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/49827.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"塞思·麦克法兰",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/1354381657.24.jpg"
+      }
+    ],
+    "directors":{
+      "title":"导演",
+      "name":"加斯·詹宁斯",
+      "avatar":"https://img1.doubanio.com/img/celebrity/large/21808.jpg"
+    },
+    "id": "I7"
+  },
+  {
+    "rating":8.2,
+    "stars":40,
+    "title": "乐高蝙蝠侠大电影",
+    "images":"https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2417949761.jpg",
+    "description":"蝙蝠侠（威尔·阿奈特 Will Arnett 配音）一边要阻止小丑（扎克·加利凡纳基斯 Zach Galifianakis 配音）犯罪，一边要抚养罗宾（迈克尔·塞拉 Michael Cera 配音）长大，而且，为了保护哥谭市的安全，蝙蝠侠不得不从一个独行侠，变成善于“团队合作”的城市警察。",
+    "casts":[
+      {
+        "title":"主演",
+        "name":"威尔·阿奈特",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/7197.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"罗莎里奥·道森",
+        "avatar":"https://img1.doubanio.com/img/celebrity/large/1433831951.79.jpg"
+      },
+      {
+        "title":"主演",
+        "name":"拉尔夫·费因斯",
+        "avatar":"https://img3.doubanio.com/img/celebrity/large/28941.jpg"
+      }
+    ],
+    "directors":{
+      "title":"导演",
+      "name":"克里斯·麦凯",
+      "avatar":"https://img1.doubanio.com/img/celebrity/large/1410316482.29.jpg"
+    },
+    "id": "I8"
+  }
+]

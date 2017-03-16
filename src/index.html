@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .myPanel{
+            width:174px;
+            height: 314px;
+            float: left;
+            margin-left: 30px;
+        }
+        .myText{
+            letter-spacing: 2px;
+            line-height: 20px;
+            text-indent:2em;
+            height: 180px;
+        }
+        .myImg{
+            height: 200px;
+            width: 140px;
+        }
+        .myBigImg{
+            height: 495px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+<div app-header></div>
+<div ui-view class="my-box">
+
+</div>
+<script src="vendor/angular/angular.min.js"></script>
+<script src="vendor/angular-animate/angular-animate.min.js"></script>
+<script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

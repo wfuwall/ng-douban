@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="col-md-3" ng-repeat="movie in movies | filter:query track by $index ">
+        <div class="panel panel-primary">
+            <div class="panel-heading" ng-bind="movie.title"></div>
+            <div class="panel-body">
+                <img ng-src="{{movie.images}}" style="width: 220px; height:300px">
+            </div>
+            <div class="panel-footer">
+                <span ng-repeat="star in movie.starsAry track by $index" ng-show="movie.stars != 0">
+                    <img src="images/star.png" ng-show="star == 1"/>
+                    <img src="images/half-star.png" ng-show="star == 2"/>
+                    <img src="images/none-star.png" ng-show="star == 0"/>
+                </span>
+                <span ng-show="movie.stars == 0">暂无评分</span>
+                <span ng-bind="movie.rating" style="font-size: 14px; padding-left: 10px;" ng-show="movie.stars != 0"></span>
+                <button class="btn btn-sm btn-success pull-right" style="margin-top: -5px;" ui-sref="detail({id:movie.id})" ng-show="isLogin">编辑</button>
+            </div>
+        </div>
+    </div>
+</div>

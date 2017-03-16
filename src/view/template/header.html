@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">豆瓣电影</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav" ng-repeat="list in lists track by $index">
+                <li ui-sref="{{list.url}}" ng-class="{'active':list.isActive}" ng-click="click($index)"><a href="###"  ng-bind="list.name"></a></li>
+            </ul>
+        </div>
+        <div class="pull-right">
+            <ul class="nav navbar-nav">
+                <li ui-sref="login" ng-hide="isLogin"><a href="###">登录</a>
+                <li ui-sref="register" ng-hide="isLogin"><a href="###">注册</a>
+                <li ng-show="isLogin"><a href="###" ng-bind="loginName"></a></li>
+                <li ng-show="isLogin"><a href="###" ui-sref="add">新增</a></li>
+                <li ng-show="isLogin" ng-click="exitEvent()"><a href="###">退出</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

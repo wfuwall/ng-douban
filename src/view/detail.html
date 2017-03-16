@@ -1,0 +1,29 @@
+<div class="container">
+    <div>
+        <div class="panel panel-primary">
+            <div class="panel-heading" ng-bind="movie.title"></div>
+            <div class="panel-body">
+                <div class="pull-left" style="margin-right: 15px;"><img ng-src="{{movie.images}}" class="myBigImg"></div>
+                <div class="pull-left" style=" width: 793px;">
+                    <div ng-bind="movie.description" class="myText"></div>
+                    <div class="panel panel-primary myPanel" style="margin-left: 0">
+                        <div class="panel-heading" ng-bind="movie.directors.title"></div>
+                        <div class="panel-body"><img class="myImg" ng-src="{{movie.directors.avatar}}" alt="" ></div>
+                        <div class="panel-footer" ng-bind="movie.directors.name"></div>
+                    </div>
+                    <div class="panel panel-primary myPanel" ng-repeat="cast in movie.casts">
+                        <div class="panel-heading" ng-bind="cast.title"></div>
+                        <div class="panel-body"><img class="myImg" ng-src="{{cast.avatar}}" alt=""></div>
+                        <div class="panel-footer" ng-bind="cast.name"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <span>电影评分:</span>
+                <span ng-bind="movie.rating"></span>
+                <button class="btn btn-danger pull-right" style="margin-top: -7px;">删除</button>
+                <button class="btn btn-warning pull-right" style="margin-top: -7px; margin-right: 20px;">修改</button>
+            </div>
+        </div>
+    </div>
+</div>

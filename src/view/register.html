@@ -1,0 +1,38 @@
+<div class="container col-md-6 col-md-offset-3">
+    <h3>用户注册</h3>
+    <form name="userform" class="form-horizontal" novalidate="novalidate">
+        <div class="form-group">
+            <label for="username" class="control-label">用户名:</label>
+            <!--input标签中的name id placeholder 等属性好像有顺序问题，顺序不对可能会导致验证不能使用-->
+            <div class="input-group" ng-class="{'has-error':userform.username.$dirty && userform.username.$invalid,'has-success':userform.username.$dirty && userform.username.$valid}">
+                <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+                <input unique type="text" class="form-control" ng-model="username" name="username"  id="username" placeholder="请输入您的用户名" user-errors  aria-describedby="basic-addon1"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="control-label">密码:</label>
+            <div class="input-group" ng-class="{'has-error':userform.password.$dirty && userform.password.$invalid,'has-success':userform.password.$dirty && userform.password.$valid}">
+                <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-star-empty"></span></span>
+                <input type="password" class="form-control" ng-model="password" name="password" placeholder="请输入您的密码" id="password" ng-minlength="6" ng-maxlength="12" autocomplete="off" aria-describedby="basic-addon2" user-errors/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="surePassword" class="control-label">确认密码:</label>
+            <div class="input-group" ng-class="{'has-error':userform.surePassword.$dirty && userform.surePassword.$invalid,'has-success':userform.surePassword.$dirty && userform.surePassword.$valid}">
+                <span class="input-group-addon" id="basic-addon3"><span class="glyphicon glyphicon-star"></span></span>
+                <input same-password="password" type="password" class="form-control" ng-model="surePassword" name="surePassword" placeholder="请再次输入您的密码" id="surePassword" autocomplete="off" aria-describedby="basic-addon3" ng-minlength="6" ng-maxlength="12" user-errors/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="control-label">邮箱:</label>
+            <div class="input-group" ng-class="{'has-error':userform.email.$dirty && userform.email.$invalid,'has-success':userform.email.$dirty && userform.email.$valid}">
+                <span class="input-group-addon" id="basic-addon4"><span class="glyphicon glyphicon-envelope"></span></span>
+                <input type="email" class="form-control" ng-model="email" name="email" id="email" placeholder="请输入您的电子邮箱" required aria-describedby="basic-addon4" autocomplete="off" user-errors/>
+            </div>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success" ng-disabled="userform.$pristine || (userform.$dirty && userform.$invalid)" ng-click="registerEvent('/login')">注册</button>
+            <button class="btn btn-info pull-right" ui-sref="login">去登录</button>
+        </div>
+    </form>
+</div>

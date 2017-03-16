@@ -1,0 +1,107 @@
+<div class="container col-md-6 col-md-offset-3">
+    <h3>新增电影</h3>
+    <form name="movieform" class="form-horizontal">
+        <div class="form-group">
+            <label for="movietype" class="control-label">电影类型:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon0"><span class="glyphicon glyphicon-film"></span></span>
+                <input type="text" class="form-control" ng-model="movietype" name="movietype"  id="movietype" placeholder="请输入电影类型(top250/coming/theaters)"  aria-describedby="basic-addon0"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="moviename" class="control-label">电影名称:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-text-size"></span></span>
+                <input type="text" class="form-control" ng-model="moviename" name="moviename"  id="moviename" placeholder="请输入电影名称"  aria-describedby="basic-addon1"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="movieImage" class="control-label">电影图片地址:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-camera"></span></span>
+                <input type="text" class="form-control" ng-model="movieImage" name="movieImage"  id="movieImage" placeholder="请输入电影图片地址"  aria-describedby="basic-addon2"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="directorname" class="control-label">导演:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon3"><span class="glyphicon glyphicon-facetime-video"></span></span>
+                <input type="text" class="form-control" ng-model="directorname" name="directorname"  id="directorname" placeholder="请输入导演姓名"  aria-describedby="basic-addon3"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="directorImage" class="control-label">导演图片地址:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon4"><span class="glyphicon glyphicon-camera"></span></span>
+                <input type="text" class="form-control" ng-model="directorImage" name="directorImage"  id="directorImage" placeholder="请输入导演图片地址"  aria-describedby="basic-addon4"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="castname1" class="control-label">1号主演姓名:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon5"><span class="glyphicon glyphicon-user"></span></span>
+                <input type="text" class="form-control" ng-model="castname1" name="castname1"  id="castname1" placeholder="请输入1号主演姓名"  aria-describedby="basic-addon5"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="castImage1" class="control-label">1号主演图片地址:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon6"><span class="glyphicon glyphicon-camera"></span></span>
+                <input type="text" class="form-control" ng-model="castImage1" name="castImage1"  id="castImage1" placeholder="请输入1号主演图片地址"  aria-describedby="basic-addon6"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="castname2" class="control-label">2号主演姓名:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon7"><span class="glyphicon glyphicon-user"></span></span>
+                <input type="text" class="form-control" ng-model="castname2" name="castname2"  id="castname2" placeholder="请输入2号主演姓名"  aria-describedby="basic-addon7"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="castImage2" class="control-label">2号主演图片地址:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon8"><span class="glyphicon glyphicon-camera"></span></span>
+                <input type="text" class="form-control" ng-model="castImage2" name="castImage2"  id="castImage2" placeholder="请输入2号主演图片地址"  aria-describedby="basic-addon8"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="castname3" class="control-label">3号主演姓名:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon9"><span class="glyphicon glyphicon-user"></span></span>
+                <input type="text" class="form-control" ng-model="castname3" name="castname3"  id="castname3" placeholder="请输入3号主演姓名"  aria-describedby="basic-addon9"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="castImage3" class="control-label">3号主演图片地址:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon10"><span class="glyphicon glyphicon-camera"></span></span>
+                <input type="text" class="form-control" ng-model="castImage3" name="castImage3"  id="castImage3" placeholder="请输入3号主演图片地址"  aria-describedby="basic-addon10"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="rating" class="control-label">电影评分:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon11"><span class="glyphicon glyphicon-star-empty"></span></span>
+                <input type="text" class="form-control" ng-model="rating" name="rating"  id="rating" placeholder="请输入电影评分(10以内的整数或1位小数)"  aria-describedby="basic-addon11"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="starts" class="control-label">电影星级:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon12"><span class="glyphicon glyphicon-star"></span></span>
+                <input type="text" class="form-control" ng-model="starts" name="starts"  id="starts" placeholder="请输入电影星级(0或5结尾的两位整数)"  aria-describedby="basic-addon12"  required autocomplete="off"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="description" class="control-label">电影简介:</label>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon13"><span class="glyphicon glyphicon-heart"></span></span>
+                <textarea rows="10" class="form-control" ng-model="description" name="description"  id="description" placeholder="请输入电影简介"  aria-describedby="basic-addon13"  required autocomplete="off"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success" ng-click="addEvent()">新增</button>
+            <button class="btn btn-info pull-right" type="reset">重置</button>
+        </div>
+    </form>
+</div>
