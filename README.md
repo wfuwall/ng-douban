@@ -6,6 +6,7 @@ this is a angular douban project
 bower install
 npm install 
 ```
+> 有bower_components和node_modules文件夹直接gulp项目运行
 
 ## 项目运行
 ```
