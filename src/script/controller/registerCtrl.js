@@ -1,12 +1,14 @@
 app.controller('registerCtrl',['$scope','local','$location',function ($scope,local,$location) {
-    var user = [];
     var userObj = {};
     $scope.registerEvent = function (url) {
         userObj.name = $scope.username;
         userObj.password = $scope.password;
         userObj.surePassword = $scope.surePassword;
         userObj.email = $scope.email;
-        user = local.getObject('user');
+        var user = local.getObject('user');
+        if(Object.prototype.toString.call(user) == "[object Object]"){
+            user = [];
+        }
         user.push(userObj);
         local.setObject('user',user);
         $location.path(url);
